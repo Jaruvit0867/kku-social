@@ -43,18 +43,16 @@
 
 ## การติดตั้ง
 
-```bash
+
 npx create-expo-app kku-social
 cd kku-social
+
 ติดตั้งแพ็กเกจหลัก
-bash
-Copy code
 npm install @react-navigation/native @react-navigation/native-stack
 npm install react-native-screens react-native-safe-area-context
 npm install axios
 npm install @expo/vector-icons
+
 การรันโปรแกรม
-bash
-Copy code
 npx expo start -c
 เปิดบน Expo Go (มือถือ) หรือรันใน Emulator (Android / iOS) ได้ทันที
