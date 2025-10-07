@@ -1,6 +1,6 @@
 # KKU Social App
 
-ผู้พัฒนา: **นายจารุวิทย์ แสงแก้วสิริกุล**
+**ชื่อ:นายจารุวิทย์ แสงแก้วสิริกุล รหัสนักศึกษา 653450086-7**
 
 โปรเจกต์นี้เป็นแอปตัวอย่างที่พัฒนาด้วย **Expo + React Native (TypeScript)** เพื่อเชื่อมต่อกับ **CIS KKU Classroom API** และแสดงข้อมูลในรูปแบบโซเชียล เช่น การโพสต์สถานะ แสดงความคิดเห็น และดูรายชื่อสมาชิกในชั้นปี
 
@@ -34,27 +34,34 @@
 
 ## หน้าตาแอปพลิเคชัน
 - หน้า **Login**
+  ![Login Screen](./assets/screens/login.jpg)
+
 - หน้า **Main (Home)**
+  ![Home Screen](./assets/screens/home.jpg)
+
 - หน้า **Feed**
+  ![Feed Screen](./assets/screens/feed.jpg)
+
 - หน้า **Members**
+  ![Members Screen](./assets/screens/members.jpg)
+
 - หน้า **Profile**
+  ![Profile Screen](./assets/screens/profile.jpg)
 
 ---
 
 ## การติดตั้ง
 
-```bash
+
 npx create-expo-app kku-social
 cd kku-social
+
 ติดตั้งแพ็กเกจหลัก
-bash
-Copy code
 npm install @react-navigation/native @react-navigation/native-stack
 npm install react-native-screens react-native-safe-area-context
 npm install axios
 npm install @expo/vector-icons
+
 การรันโปรแกรม
-bash
-Copy code
 npx expo start -c
 เปิดบน Expo Go (มือถือ) หรือรันใน Emulator (Android / iOS) ได้ทันที
