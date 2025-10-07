@@ -34,10 +34,19 @@
 
 ## หน้าตาแอปพลิเคชัน
 - หน้า **Login**
+  ![Login Screen](./assets/screens/login.png)
+
 - หน้า **Main (Home)**
+  ![Home Screen](./assets/screens/home.png)
+
 - หน้า **Feed**
+  ![Feed Screen](./assets/screens/feed.png)
+
 - หน้า **Members**
+  ![Members Screen](./assets/screens/members.png)
+
 - หน้า **Profile**
+  ![Profile Screen](./assets/screens/profile.png)
 
 ---
 
