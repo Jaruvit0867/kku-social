@@ -54,6 +54,7 @@
 
 
 npx create-expo-app kku-social
+
 cd kku-social
 
 ติดตั้งแพ็กเกจหลัก
